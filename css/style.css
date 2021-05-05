@@ -48,9 +48,13 @@ section {
    
 }
 #right {
-    float: right;
+  
   text-align: justify;
-  width: 460px;
+  
+  display: inline-block;
+  margin-right: 130px;
+  margin-left: 15px;
+  width: 480px;
   height: 400;
 }
 
@@ -63,10 +67,11 @@ h3{
 span{
     
     text-align: left;
-   
-  
+   display: inline-block;
+  padding-top: 10px;
   background-color: rgb(7, 7, 7);
   color: rgb(200, 212, 212);
+  margin-top: 75px
    
 }
 footer {
